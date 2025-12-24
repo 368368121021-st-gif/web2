@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Freelance Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Kanit', sans-serif;
+        }
+
+        body {
+            background-color: #f4f7f6;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background: linear-gradient(135deg, #2d3436, #00b894);
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: -40px auto 40px;
+            background: white;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 5px solid white;
+            margin-bottom: 20px;
+            object-fit: cover;
+        }
+
+        h1 { margin-bottom: 10px; }
+        .tagline { color: #00b894; font-weight: 600; margin-bottom: 20px; }
+
+        .section { margin-bottom: 30px; }
+        .section-title {
+            border-left: 5px solid #00b894;
+            padding-left: 15px;
+            margin-bottom: 15px;
+            font-size: 1.2rem;
+            color: #2d3436;
+        }
+
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .skill-badge {
+            background: #e1f5fe;
+            color: #0288d1;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+        }
+
+        .contact-btn {
+            display: inline-block;
+            background: #00b894;
+            color: white;
+            padding: 12px 30px;
+            text-decoration: none;
+            border-radius: 25px;
+            font-weight: 600;
+            transition: 0.3s;
+            margin-top: 20px;
+        }
+
+        .contact-btn:hover { background: #009476; transform: translateY(-2px); }
+
+        footer { text-align: center; font-size: 0.8rem; color: #888; padding-bottom: 20px; }
+    </style>
+</head>
+<body>
+
+<header>
+    <img src="https://via.placeholder.com/150" alt="Profile Picture" class="profile-img">
+    <h1>[ชื่อ-นามสกุล ของคุณ]</h1>
+    <p class="tagline">[ตำแหน่งงาน เช่น Graphic Designer / Web Developer]</p>
+</header>
+
+<div class="container">
+    <div class="section">
+        <div class="section-title">เกี่ยวกับฉัน (About Me)</div>
+        <p>สวัสดีครับ! ผมเป็นฟรีแลนซ์ที่มีความเชี่ยวชาญด้าน [ระบุงานที่ทำ] มีประสบการณ์ทำงานมากกว่า [ระบุจำนวนปี] ปี มุ่งเน้นการส่งมอบงานที่มีคุณภาพและตรงต่อเวลา</p>
+    </div>
+
+    <div class="section">
+        <div class="section-title">ทักษะและความชำนาญ (Skills)</div>
+        <div class="skills">
+            <span class="skill-badge">Skill 1</span>
+            <span class="skill-badge">Skill 2</span>
+            <span class="skill-badge">Skill 3</span>
+            <span class="skill-badge">Software X</span>
+            <span class="skill-badge">Communication</span>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">ผลงานที่ผ่านมา (Experience)</div>
+        <ul>
+            <li><strong>Project A:</strong> รายละเอียดงานสั้นๆ ที่เคยทำ</li>
+            <li><strong>Project B:</strong> ผลลัพธ์ที่ได้จากการทำงาน</li>
+        </ul>
+    </div>
+
+    <div class="section" style="text-align: center;">
+        <div class="section-title">สนใจจ้างงาน (Contact Me)</div>
+        <p>อีเมล: yourname@email.com</p>
+        <p>Line ID: your-id</p>
+        <a href="mailto:yourname@email.com" class="contact-btn">ส่งข้อความหาผม</a>
+    </div>
+</div>
+
+<footer>
+    © 2024 [ชื่อของคุณ] - สร้างด้วย GitHub Pages
+</footer>
+
+</body>
+</html>
